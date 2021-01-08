@@ -1,0 +1,64 @@
+:root {
+    --main: #043565;
+    --minor: #35A7FF;
+    --backup : #FFE74C;
+    --text: #71816D;
+}
+
+label {
+    color: var(--main);
+    font-size: x-large;
+}
+
+.jumbo {
+    background-color: var(--backup) !important;
+    color: var(--main) !important;
+}
+
+.navigation {
+    background-color: var(--main) !important;
+}
+
+.navbar a {
+    color: var(--minor) !important;
+}
+
+.task {
+    border: 1px solid var(--minor) !important;
+}
+
+
+#addTask {
+    color: var(--main) !important;
+    background-color: var(--backup);
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    border: 1px solid var(--main);
+}
+
+.task-status {
+    color: var(--main);
+}
+
+.card {
+    border-radius: 0.5em !important;
+}
+
+.task-status span {
+    color: var(--text);
+
+}
+
+.task-status .btn {
+    margin: 10px 5px;
+}
+
+#completeTasks .card {
+    border: 1px solid rgba(0,255,0,.50) !important;
+}
+
+.footer {
+    background-color: #FFE74C !important;
+    color: var(--main);
+    font-weight: bold;
+}
